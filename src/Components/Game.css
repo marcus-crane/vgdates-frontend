@@ -1,0 +1,19 @@
+.notification {
+    padding-right: 1.5rem;
+}
+
+.title, .subtitle {
+    text-align: center;
+}
+
+.subtitle:not(:last-child) {
+    margin-bottom: .6rem;
+}
+
+span.tag {
+    margin-right: .5rem;
+}
+
+span.tag:last-child {
+    margin-right: 0;
+}
