@@ -1,38 +1,23 @@
 import React, { Component } from 'react';
-import Bulma from 'bulma'
 
 class App extends Component {
   render() {
     return (
-      <section className="hero is-primary is-medium">
-        <div className="hero-head">
+      <section className="hero is-primary">
+        <div className="hero-body">
           <div className="container">
-            <div className="nav-left">
-              <a className="nav-item">
-                <p>VGDates</p>
-              </a>
-            </div>
-            <span className="nav-toggle">
-              <span></span>
-              <span></span>
-              <span></span>
-            </span>
-            <div className="nav-right nav-menu">
-              <a className="nav-item is-active">
-                Home
-              </a>
-            </div>
+            <h1 className="title">
+              VGDates
+            </h1>
+            <h2 className="subtitle">
+              Get 'yer dates
+            </h2>
           </div>
         </div>
 
         <div className="hero-body">
-          <div className="container has-text-centered">
-            <h1 className="title">
-              Title
-            </h1>
-            <h2 className="subtitle">
-              Subtitle
-            </h2>
+          <div className="columns is-mobile">
+            <div className="column is-one-quarter is-offset-one-quarter">Test</div>
           </div>
         </div>
       </section>
