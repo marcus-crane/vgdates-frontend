@@ -9,7 +9,7 @@ const Body = () => {
                 <hr />
                 <div className="columns is-desktop is-multiline">
                     <Game title="Gravity Rush" releaseDate="January 18" />
-                    <Game title="Dragon Quest VIII: Journey of the Cursed King" releaseDate="January 21" />
+                    <Game title="Dragon Quest VIII: Journey of the Cursed King" releaseDate="January 21" image="https://imgkk.com/i/plx5.jpg" />
                     <Game title="Kingdom Hearts HD 2.8 Final Chapter Prologue" releaseDate="January 24" />
                     <Game title="Resident Evil 7: Biohazard" releaseDate="January 24" />
                     <Game title="Yakuza 0" releaseDate="January 24" />
