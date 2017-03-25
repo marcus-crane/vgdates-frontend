@@ -2,7 +2,7 @@
     padding-right: 1.5rem;
 }
 
-.title, .subtitle {
+.title, .subtitle:.not(h1) {
     text-align: center;
 }
 
