@@ -1,5 +1,6 @@
 .notification {
     padding-right: 1.5rem;
+    text-align: center;
 }
 
 .title, .subtitle:.not(h1) {
