@@ -1,19 +1,13 @@
 import React, { Component } from 'react';
-import axios from 'axios'
+import Body from './Body'
+import Header from './Header'
 
 class App extends Component {
-    componentWillMount() {
-        return axios.get('http://api.vgdat.es/month/1')
-        .then((res) => {
-            this.setState({
-                info: res.data
-            })
-        })
-    }
     render() {
         return (
             <div>
-                <h1>hi</h1>
+                <Header />
+                <Body />
             </div>
         );
     }
