@@ -28,7 +28,7 @@ class Body extends Component {
     return this.state.isLoading === true
     ? <Loading />
     : <Month month="January">
-        {this.state.games.map((game, index) => <Game key={index} title={game.name} releaseDate={game.date} platforms={['Switch']} /> )}
+        {this.state.games.map((game, index) => <Game key={index} title={game.name} releaseDate={game.date} platforms={game.platforms} /> )}
       </Month>
   }
 }

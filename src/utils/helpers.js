@@ -2,7 +2,7 @@ import axios from 'axios'
 
 const h = {
   fetchGames: function() {
-    return axios.get('https://api.vgdat.es/month/1')
+    return axios.get('http://localhost:3456/api')
   }
 }
 
